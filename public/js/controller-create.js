@@ -1,3 +1,4 @@
+//creates a new video
 videoApp.controller('createCtrl', function ($scope, $http, reloadService) {
     
     $scope.saveChanges = function(){
