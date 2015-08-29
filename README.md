@@ -19,11 +19,11 @@ run: npm start
 
 Notes:
 
-DB Back-End services are in file: modules/mongo.js
-CRUD services are in file: module/router.js
-Angular Web App is in folder: public/js
-HTML components are in: public/components
-Main File: public/index.html
+- DB Back-End services are in file: modules/mongo.js
+- CRUD services are in file: module/router.js
+- Angular Web App is in folder: public/js
+- HTML components are in: public/components
+- Main File: public/index.html
 
 Front End Dependencies (will be installed automatically by npm don't worry!):
 
