@@ -1,3 +1,4 @@
+//display a list of videos
 videoApp.controller('videoListCtrl', function ($scope, $http, updateService, deleteService, reloadService) {
 	function loadVideoList(){
 		$http.get('/videos').success(function(videos){
