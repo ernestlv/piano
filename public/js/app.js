@@ -25,7 +25,7 @@ videoApp.config(['$routeProvider', function($routeProvider){
 		});
 }]);
 
-videoApp.directive('myHolder', function() {
+videoApp.directive('myHolder', function() { //hooks angular and holder.js
   return {
     link: function(scope, element, attrs) {
       attrs.$set('data-src', attrs.myHolder);
