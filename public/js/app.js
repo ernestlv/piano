@@ -16,10 +16,6 @@ videoApp.config(['$routeProvider', function($routeProvider){
 			templateUrl:'/components/updateForm.html',
 			controller: 'updateCtrl'
 		}).
-		when('/delete', {
-			templateUrl:'/components/deleteButton.html',
-			controller: 'deleteCtrl'
-		}).
 		otherwise({
 			redirectTo: "/"
 		});

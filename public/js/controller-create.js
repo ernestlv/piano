@@ -2,7 +2,7 @@
 videoApp.controller('createCtrl', function ($scope, $http, reloadService) {
     
     $scope.saveChanges = function(){
-    	var id = Math.random() * 100 | 0; //generate id
+    	var id = Math.random() * 1000000 | 0; //generate id
     	var payload = {
     		id: id,
      		title: $scope.title,
