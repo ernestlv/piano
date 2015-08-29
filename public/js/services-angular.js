@@ -22,7 +22,7 @@ videoApp.factory('deleteService', function(){ //capture video object to be delet
 	};
 });
 
-videoApp.factory('reloadService', function(){ //capture video object to be deleted
+videoApp.factory('reloadService', function(){ //signal when to update the video list
 	var count = 0;
 	return {
 		getStatus: function(){
