@@ -1,0 +1,33 @@
+<div class="container">
+	<h4>Update Video</h4>
+	<form class="col s12">
+		<div class="row">
+			<div class="col s12">
+			<label for="title">Title</label>
+				<input id="title" class="validate" type="text" ng-model="title">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s12">
+				<label for="description">Description</label>
+				<textarea id="description" class="materialize-textarea" ng-model="description"></textarea>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s12">
+				<label for="sortOrder">Sort Order</label>
+				<input id="sortOrder" type="text" ng-model="sortOrder">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s12">
+				<label for="publishedDate">Published Date</label>
+				<input id="publishedDate" type="date" class="datepicker" ng-model="publishedDate">
+			</div>
+		</div>
+	</form>
+	<div class="modal-footer">
+		<a href="#/" class="btn" ng-click="saveChanges()">Save <i class="material-icons right">send</i></a>
+		<a href="#/" class="btn">Cancel <i class="material-icons right">stop</i></a>
+	</div>
+</div>

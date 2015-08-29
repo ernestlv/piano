@@ -1,0 +1,24 @@
+{
+  "name": "myMongo",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ernestlv/nodejs",
+  "authors": [
+    "ernestlv <ernestolv@hotmail.com>"
+  ],
+  "main": "app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.4",
+    "holderjs": "~2.8.2",
+    "angular-route": "~1.4.4",
+    "materialize": "~0.97.0",
+    "jquery": "~2.1.4"
+  }
+}

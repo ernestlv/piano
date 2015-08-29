@@ -1,0 +1,25 @@
+<div class="container">
+	<h3> Video Collection</h3>
+	<ul class="collection">
+		<li class="collection-item avatar" ng-repeat="video in videos | orderBy:'sortOrder'">
+			<div class="valign-wrapper">
+				<img class="thumb" my-holder={{video.coverImage}}>
+				<a class="title valign" href="#/update" ng-click="clickDetailLink(video)">{{video.title}}</a>
+			</div>
+			<p>{{video.description}}</p>
+			<a class="secondary-content modal-trigger" href="#/" ng-click="clickDeleteLink(video)"><i class="material-icons dp48">delete</i></a>
+		</li>
+	</ul>
+	<button class="btn right" ng-click="createVideo()">create video <i class="material-icons right">add</i></button>
+</div>
+<div id="delete-modal" class="modal">
+	<div class="modal-content">
+		<h4>Delete Video</h4>
+		<p>Are you sure you want to delete the video?</p>
+		<form><input type="hidden" ng-model="videoID"></form>
+	</div>
+	<div class="modal-footer">
+		<a href="#/" class="btn btn-flat" ng-click="deleteVideo()">delete</a>
+		<a href="#/" class="btn btn-flat modal-close">Cancel</a>
+	</div>
+</div>
