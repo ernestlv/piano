@@ -31,3 +31,7 @@ Front End Dependencies (will be installed automatically by npm don't worry!):
 - jquery 2.1
 - angular 1.4
 - holder.js - image generator
+
+Screen Sample:
+
+(https://github.com/ernestlv/piano/blob/master/screens/piano-video-list.png)
