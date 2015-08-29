@@ -34,4 +34,4 @@ Front End Dependencies (will be installed automatically by npm don't worry!):
 
 Screen Sample:
 
-(https://github.com/ernestlv/piano/blob/master/screens/piano-video-list.png)
+!(https://github.com/ernestlv/piano/blob/master/screens/piano-video-list.png)
