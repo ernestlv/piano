@@ -7,7 +7,7 @@ mongoDB.MongoClient.connect('mongodb://localhost:27017/piano', function(err, db)
 	mongo.getVideoList = function(responseCallback){
 			var videos = db.collection('videos');
 			videos.find().toArray(function(err, items){
-				if (err){ responseCallback(err); }
+				if (err){ console.log(err); }
 				responseCallback(items);
 			});
 	};
@@ -15,7 +15,7 @@ mongoDB.MongoClient.connect('mongodb://localhost:27017/piano', function(err, db)
 	mongo.getVideo = function(id, responseCallback){
 			var videos = db.collection('videos');
 			videos.findOne({id:(id-0)}, function(err, item){
-				if (err){ responseCallback(err); }
+				if (err){ console.log(err); }
 				responseCallback(item);
 			});
 	};
