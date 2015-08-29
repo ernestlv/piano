@@ -10,13 +10,12 @@
 			<a class="secondary-content modal-trigger" href="#/" ng-click="clickDeleteLink(video)"><i class="material-icons dp48">delete</i></a>
 		</li>
 	</ul>
-	<button class="btn right" ng-click="createVideo()">create video <i class="material-icons right">add</i></button>
+	<a class="btn right" href="#/create">create video <i class="material-icons right">add</i></a>
 </div>
 <div id="delete-modal" class="modal">
 	<div class="modal-content">
 		<h4>Delete Video</h4>
 		<p>Are you sure you want to delete the video?</p>
-		<form><input type="hidden" ng-model="videoID"></form>
 	</div>
 	<div class="modal-footer">
 		<a href="#/" class="btn btn-flat" ng-click="deleteVideo()">delete</a>

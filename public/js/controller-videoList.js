@@ -6,10 +6,6 @@ videoApp.controller('videoListCtrl', function ($scope, $http, updateService, del
 		});
 	}
 
-	$scope.createVideo = function(){
-    	location = "#/create"
-    };
-
 	$scope.clickDetailLink = function(video){
 		updateService.setVideo(video); //we send video to update
 		return false;
