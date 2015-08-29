@@ -1,6 +1,8 @@
+//updates existent video
 videoApp.controller('updateCtrl', function ($scope, $http, updateService, reloadService) {
 	$scope.$watch(function () { return updateService.getVideo(); }, function ( video ) { //watch updateService to get video info
 		if (!video) { return; }
+		//copy video info to update scope
 		$scope.id = video.id;
 		$scope.title = video.title;
         $scope.description = video.description;
