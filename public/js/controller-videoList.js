@@ -1,4 +1,4 @@
-//display a list of videos
+//define methods to process a list of videos
 videoApp.controller('videoListCtrl', function ($scope, $http, updateService, deleteService, reloadService) {
 	function loadVideoList(){
 		$http.get('/videos').success(function(videos){
@@ -21,7 +21,7 @@ videoApp.controller('videoListCtrl', function ($scope, $http, updateService, del
 		return false;
 	};
 
-	$scope.deleteVideo = function(){
+	$scope.deleteVideo = function(){ //service call
 		$('#delete-modal').closeModal();
     	var video = deleteService.getVideo();
     	$http.delete('/video/'+video.id).success(function(){
