@@ -11,7 +11,7 @@ install:
 
 start mongoDB: mongod
 
-(optional) import videos into mongo using: mongoimport --db piano --collection videos --file videos.js
+import videos into mongo using: mongoimport --db piano --collection videos --file videos.js
 
 run: npm install
 
