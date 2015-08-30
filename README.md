@@ -21,7 +21,7 @@ That is it!
 
 You can enter this in the browser to access the app:
 
-http://<my-server-domain>:8000
+http://&gt;my-server-domain&lt;:8000
 
 If you populated the mongoDB, You should a  screen similar to the one at the bottom of this page.
 
