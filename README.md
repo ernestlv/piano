@@ -1,5 +1,4 @@
 # piano
-piano-test
 
 #### Requirements:
 
