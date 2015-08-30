@@ -39,7 +39,7 @@ I took the liberty to re-architect a bit the application. The original request a
 
 Since each video is a well defined object, with more or less stable data, and the list of videos is a collection of them, rather than a set of transactional joins, it makes more sense to use a hierarchical database, like mongoDB, instead of a RDBMS.
 
-Finally there is a number of CSS frameworks. However, I choose materialize, because it is easy to use, very well documented, support responsive design and, most important, it is not tightly coupled to any javascript frameworks. Additionally, materialize is implemented thru standard markup, using class attributes, similar to the way bootstrap works, so for developers, the learning curve is smooth. Materialize uses a new style, that is base on [material design philosopy](https://www.google.com/design/spec/material-design/introduction.html). Material design tries to enrich user intercations inserting a three-dimensional experience in some components.
+Finally there is a number of CSS frameworks. However, I choose materialize, because it is easy to use, very well documented, support responsive design and most important, it is not tightly coupled to any javascript frameworks. Additionally, materialize is implemented thru standard markup, using class attributes, similar to the way bootstrap works, so for developers, the learning curve is smooth. Materialize uses a new style, that is base on [material design philosopy](https://www.google.com/design/spec/material-design/introduction.html). Material design tries to enrich user intercations inserting a three-dimensional experience in some components.
 
 #### Notes
 
