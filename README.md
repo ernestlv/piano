@@ -10,7 +10,7 @@
 
 ###### Front End Dependencies (will be installed automatically by npm don't worry!):
 
-- materilize - CSS framewrok
+- materialize - CSS framewrok
 - jquery 2.1
 - angular 1.4
 - holder.js - image generator
