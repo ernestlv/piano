@@ -35,11 +35,11 @@ If you populated the mongoDB, You should see a screen, similar to the one at the
 
 #### Comments
 
-I took the liberty to re-architect a bit the application. The original request asked to encapsulate the CRUD operations in a modal box, but it made the design and code much more modular and compact, to encapsulate each CRUD in a different controller and present them in different views. Also, a modal box is more tighly coupled with a desktop experience. Should you decide to implement responsive design, in the future, an angular view will provide more flexibility.
+I took the liberty to re-architect a bit the application. The original request asked to encapsulate the CRUD operations in a modal box. However the design and code are much more modular and compact, if we encapsulate each CRUD in a different controller and present them using angular views. Also, a modal box is more tightly coupled with a desktop experience. Should you decide to implement responsive design, in the future, an angular view will provide more flexibility.
 
-Since each video is a well defined object, with more or less stable data, and the list of videos is a collection of them, rather than a set of transactional joins, running in real time, it makes more sense to use a hierarchical database, like mongoDB, rather than a RDBMS.
+Since each video is a well defined object, with more or less stable data, and the list of videos is a collection of them, rather than a set of transactional joins, it makes more sense to use a hierarchical database, like mongoDB, instead of a RDBMS.
 
-Finally there is a number of CSS frameworks. However, I choose materialize, because it is easy to use, very well documented, support responsive design and, most important, it is not tighly copulated to any javascript frameworks. Additionally, materialize uses standard markup, using standard class attributes, similar to the way bootstrap works, so for experience developers, the learning curve for materialize is smooth. Materialize uses a new design style that is base on what is called [material design philosopy](https://www.google.com/design/spec/material-design/introduction.html). Material design tries to enrich user intercations inserting a third-dimensional experience in some components.
+Finally there is a number of CSS frameworks. However, I choose materialize, because it is easy to use, very well documented, support responsive design and, most important, it is not tighly copulated to any javascript frameworks. Additionally, materialize is implemented thru standard markup, using class attributes, similar to the way bootstrap works, so for developers, the learning curve is smooth. Materialize uses a new style, that is base on [material design philosopy](https://www.google.com/design/spec/material-design/introduction.html). Material design tries to enrich user intercations inserting a three-dimensional experience in some components.
 
 #### Notes
 
