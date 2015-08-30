@@ -23,7 +23,7 @@ You can enter this in the browser to access the app:
 
 http://&lt;my-server-domain&gt;:8000
 
-If you populated the mongoDB, You should see a screen similar to the one at the bottom of this page.
+If you populated the mongoDB, You should see a screen, similar to the one at the bottom of this page.
 
 Notes:
 
