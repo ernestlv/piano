@@ -35,7 +35,7 @@ If you populated the mongoDB, You should see a screen, similar to the one at the
 
 #### Comments
 
-I took the liberty to re-architect a bit the application. The original request asked to encapsulate the CRUD operations in a modal box. However the design and code are more modular and compact, if we encapsulate each CRUD in a different controller and present them using angular views. Also, a modal box is more tightly coupled with a desktop experience. Should you decide to implement responsive design, in the future, an angular view will provide more flexibility.
+I took the liberty to re-architect a bit the application. The original request asked to encapsulate the CRUD operations in a modal box. However the design and code are more modular and compact, if we encapsulate each CRUD in a different controller and present them using angular views. Also, a modal box is more tightly coupled with a desktop experience. Should you decide to implement responsive design, in the future, an angular view will provide more flexibility. I still used a modal for the delete operation though.
 
 Since each video is a well defined object, with more or less stable data, and the list of videos is a collection of them, rather than a set of transactional joins, it makes more sense to use a hierarchical database, like mongoDB, instead of a RDBMS.
 
